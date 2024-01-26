@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-top: 30rem;
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem;
+  background-color: rgb(30, 30, 30);
+  border-radius: 1rem;
+  position: relative;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(132, 132, 132);
+  border-radius: 1rem;
+}
+
+.box-2 {
+  width: 10rem;
+  background-color: rgb(78, 78, 78);
+}
+
+.box-3 {
+  height: 3rem;
+  background-color: rgb(198, 198, 198);
+}
